@@ -17,19 +17,26 @@
 }
 
 .contact-form .form-group {
-  display: flex;
-  flex-direction: column;
   margin-bottom: 15px;
 }
 
 .contact-form .form-group label {
-  margin-bottom: 5px;
-  font-size: 14px;
-  color: #3c4043;
+  display: flex;
+  align-items: center;
+}
+
+.contact-form .form-group .label-image {
+  margin-right: 10px;
+}
+
+.contact-form .form-group .label-image img {
+  width: 20px;
+  height: auto;
+  opacity: 0.5;
 }
 
 .contact-form .form-group input {
-  width: 100%;
+  width: calc(100% - 30px);
   height: 30px;
   padding: 5px 10px;
   border: 1px solid #ccc;
